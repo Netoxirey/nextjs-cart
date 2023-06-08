@@ -1,0 +1,80 @@
+/* Configuración del box-sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Configuración de las fuentes y el tamaño de fuente base */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Configuración de los márgenes y rellenos */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Configuración del color de fondo y color de texto */
+body {
+    background-color: var(--color-background);
+    color: #000000;
+}
+
+/* Configuración de la altura y anchura 100% del contenedor principal */
+
+html {
+    font-size: 62.5%;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    color: var(--color-text);
+}
+
+
+/* Configuración de la visualización en bloque para los elementos de encabezado */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    display: block;
+}
+
+/* Configuración del enlace sin subrayado y cambio de color */
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+/* Configuración de la visualización en línea para los elementos en lista */
+ul,
+ol {
+    display: inline;
+}
+
+/* Configuración del cursor predeterminado */
+body {
+    cursor: default;
+}
+
+:root {
+    --color-primary: #694ce6;
+    --color-secondary: #e8e4fb;
+    --color-accent: #7b63e9;
+    --color-background: #ffffff;
+    --color-text: #010104;
+}
